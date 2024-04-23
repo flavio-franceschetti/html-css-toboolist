@@ -78,7 +78,7 @@ main {
 }
 
 .section-name {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 800;
 }
 
@@ -90,6 +90,7 @@ main {
 
 .task-content {
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .task-tag {
@@ -103,9 +104,28 @@ main {
   background-color: rgb(0, 162, 255);
 }
 
-.task-content:before {
+.q1-goals {
+  background-color: rgb(166, 98, 229);
+}
+
+.recruiting {
+  background-color: rgb(52, 191, 52);
+}
+
+.mobile {
+  background-color: rgb(254, 165, 1);
+}
+
+.task-text-done:before {
   content: "\2611";
   font-size: 24px;
   color: rgb(2, 208, 2);
+  margin-right: 5px;
+}
+
+.task-text-todo:before {
+  content: "\2612";
+  font-size: 24px;
+  color: rgb(208, 2, 2);
   margin-right: 5px;
 }
