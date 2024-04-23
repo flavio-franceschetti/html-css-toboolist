@@ -89,16 +89,32 @@ main {
   margin-right: 5px;
 }
 
+/* CONTENUTO DELLE TASKS */
+
 .task-content {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
+/* ELEMENTI RIUTILIZZABILI DELLA SEZIONE TASK */
 .task-tag {
   font-size: 12px;
   color: #fff;
   padding: 3px 6px;
   border-radius: 8px;
+}
+
+.task-text-done:before {
+  content: "\2611";
+  font-size: 24px;
+  color: rgb(2, 208, 2);
+  margin-right: 5px;
+}
+
+.task-text-todo:before {
+  content: "\2612";
+  font-size: 24px;
+  color: rgb(208, 2, 2);
+  margin-right: 5px;
 }
 
 .editorial {
@@ -123,18 +139,4 @@ main {
 
 .sales {
   background-color: rgb(80, 223, 140);
-}
-
-.task-text-done:before {
-  content: "\2611";
-  font-size: 24px;
-  color: rgb(2, 208, 2);
-  margin-right: 5px;
-}
-
-.task-text-todo:before {
-  content: "\2612";
-  font-size: 24px;
-  color: rgb(208, 2, 2);
-  margin-right: 5px;
 }
