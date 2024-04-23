@@ -116,6 +116,14 @@ main {
   background-color: rgb(254, 165, 1);
 }
 
+.website {
+  background-color: rgb(250, 71, 149);
+}
+
+.sales {
+  background-color: rgb(80, 223, 140);
+}
+
 .task-text-done:before {
   content: "\2611";
   font-size: 24px;
