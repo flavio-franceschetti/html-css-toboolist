@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(31, 31, 31);
+  color: rgb(2, 0, 48);
   background-color: rgb(233, 233, 233);
 }
 
@@ -66,4 +66,46 @@ main {
   background-color: #fff;
   border: 1px solid rgb(237, 237, 237);
   color: rgb(203, 203, 203);
+}
+
+/* TODOLIST */
+.tasks {
+  margin-top: 36px;
+}
+
+.task {
+  margin-top: 24px;
+}
+
+.section-name {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.section-name:before {
+  content: "\25BC";
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.task-content {
+  font-size: 18px;
+}
+
+.task-tag {
+  font-size: 12px;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 8px;
+}
+
+.editorial {
+  background-color: rgb(0, 162, 255);
+}
+
+.task-content:before {
+  content: "\2611";
+  font-size: 24px;
+  color: rgb(2, 208, 2);
+  margin-right: 5px;
 }
